@@ -1,0 +1,12 @@
+.tile-stats .icon {
+    top: 40px !important;
+  }
+  .tiles, .top_tiles
+  {
+    margin-top: 10px !important;
+  }
+
+  .x_content 
+  {
+      padding: 20px;
+  }

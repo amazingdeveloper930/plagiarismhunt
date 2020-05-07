@@ -1,0 +1,179 @@
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.mid_center {
+    width: 100%;
+    max-width: 1300px;
+}
+
+.widget_plag_good_box .ui-ribbon-wrapper {
+    display: none;
+}
+
+.widget_plag_good_box[data-status='2']:first-child {
+    background-color: #eceeff;
+    border-width: 2px !important;
+    border-color: #cfd0de !important;
+    border-style: solid;
+}
+
+.widget_plag_good_box[data-status='2']:first-child .method-name {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.widget_plag_good_box[data-status='2']:first-child .rate {
+    font-weight: bold;
+}
+
+.widget_plag_good_box[data-status="0"] .status_title::after {
+    content: "Unchecked";
+}
+
+.widget_plag_good_box[data-status="1"] .status_title::after {
+    content: "Processing";
+}
+
+.widget_plag_good_box[data-status="2"] .status_title::after {
+    content: "Checked";
+}
+
+.widget_plag_good_box[data-status="3"] .status_title::after {
+    content: "Error";
+}
+
+.widget_plag_good_box[data-status="0"] .btn-action::after {
+    content: "Check Paper $7";
+}
+
+.widget_plag_good_box[data-status="3"] .btn-action::after {
+    content: "Recheck";
+}
+
+.widget_plag_good_box {
+    text-align: center;
+}
+
+.widget_plag_good_box[data-status="1"] .rate,
+.widget_plag_good_box[data-status="2"] .rate,
+.widget_plag_good_box[data-status="0"] .btn-action,
+.widget_plag_good_box[data-status="3"] .btn-action,
+.widget_plag_good_box[data-status="2"] .loader {
+    display: block;
+}
+
+.widget_plag_good_box[data-status="0"] .rate,
+.widget_plag_good_box[data-status="3"] .rate,
+.widget_plag_good_box[data-status="1"] .btn-action,
+.widget_plag_good_box[data-status="2"] .btn-action,
+.widget_plag_good_box[data-status="0"] .loader,
+.widget_plag_good_box[data-status="2"] .loader,
+.widget_plag_good_box[data-status="3"] .loader {
+    display: none;
+}
+
+.widget_plag_good_box .ribbon,
+.widget_plag_good_box .btn-payment-openreport {
+    display: none;
+}
+
+.widget_plag_good_box[data-status='2']:first-child .ribbon,
+.widget_plag_good_box[data-status='2']:first-child .btn-payment-openreport {
+    display: table-cell;
+}
+
+.title_left h3 {
+    float: left;
+}
+
+.title_left button {
+    float: right;
+}
+
+#upload-form {
+    display: none;
+}
+
+#other-pan {
+    text-align: center;
+}
+
+@media (min-width: 480px) {
+    #other-pan {
+        height: 200px;
+    }
+    #other-pan #btn-payment-checkothers {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 991px) {
+    #other-pan {
+        height: 225px;
+    }
+    #other-pan #btn-payment-checkothers {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #other-pan {
+        height: 225px;
+    }
+    #other-pan #btn-payment-checkothers {
+        margin-top: 0px;
+    }
+}
+
+.loader {
+    height: 4px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+.loader:before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: #09c0e4;
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    from {
+        left: -200px;
+        width: 30%;
+    }
+    50% {
+        width: 30%;
+    }
+    70% {
+        width: 70%;
+    }
+    80% {
+        left: 50%;
+    }
+    95% {
+        left: 120%;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+.method-icon {
+    border-width: 1px;
+    border-color: #ad8989;
+    border-style: solid;
+}

@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 1024px) and (max-width: 1200px){
+.footer-social ul li { margin-right: 3px;}
+.follow-us p { line-height: 24px;}	
+.footer-list ul li { margin-bottom: 10px;}
+.plaga-cheque h2 {font-size: 32px;}
+.how-palgarism-content h2 { font-size: 32px;}
+.how-palgarism-content p { line-height: 26px; margin-bottom: 10px;}
+.how-palgarism-content ul li { margin-bottom: 12px;}
+.business-help-content h2 { font-size: 32px;}
+p { font-size: 15px; line-height: 26px !important;}
+.custom-marketing-content h2 { font-size: 32px; margin-bottom: 12px;}
+.marketing-video iframe{width: 100%;}
+.tools-content h2 { font-size: 32px; padding-bottom: 7px; margin-bottom: 12px;}
+.custom-tools { padding: 40px 0;}
+.custom-marketing { padding: 42px 0;}
+.business-help { padding: 45px 0;}
+.how-palgarism { padding-bottom: 40px;}
+.plaga-cheque { padding: 35px 0 90px;}
+.custom-graph { padding: 44px 0 130px;}
+.dp-caption h1 { font-size: 44px; line-height: 50px;}
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+.dp-caption h1 { font-size: 44px; line-height: 50px;}	
+.how-palgarism-content h2 { font-size: 32px;}
+.how-palgarism-content p { line-height: 26px; margin-bottom: 10px;}
+.how-palgarism-content ul li { margin-bottom: 12px;}
+.business-help-content h2 { font-size: 32px;}
+p { font-size: 15px; line-height: 26px !important;}
+.custom-marketing-content h2 { font-size: 32px; margin-bottom: 12px;}
+.tools-content h2 { font-size: 32px; padding-bottom: 7px; margin-bottom: 12px;}
+.plaga-cheque h2 { font-size: 32px;}
+
+}
+
+@media only screen and (max-width: 991px) {    
+ 
+.navbar-toggle { float: left; margin: 0; height: 45px; width: 45px; border-radius: 0; z-index: 1; border: 1px #fff solid; outline: none !important;}
+.navbar-toggle .icon-bar { width: 24px; background: #fff;transition: .5s ease;}
+.navbar-toggle.collapsed .icon-bar:nth-child(2){transform: rotate(0)translateY(0)translateX(0);}
+.navbar-toggle.collapsed .icon-bar:nth-child(3){opacity:1}
+.navbar-toggle.collapsed .icon-bar:nth-child(4){transform:rotate(0)translateY(0)translateX(0);}
+.navbar-toggle .icon-bar:nth-child(2){transform: rotate(-45deg)translateY(5px)translateX(-5px);}
+.navbar-toggle .icon-bar:nth-child(3){opacity: 0}
+.navbar-toggle .icon-bar:nth-child(4){transform:rotate(45deg)translateY(-4px)translateX(-3px);}
+.navbar-header { display: block;}  
+.custom-header .navbar ul li { margin-left: 0; text-align: left; border-bottom: 1px #595959 dashed; line-height: 30px;}
+.navbar-collapse{margin-top: 10px;}
+.dp-caption {left: 0; bottom: 12px;}
+.bnr-btn { font-size: 12px; padding: 8px 20px; margin-top: 12px;}
+.dp-caption p { line-height: 22px; font-size: 13px; margin-top: 5px;}
+.dp-caption h1 { font-size: 36px; line-height: 40px;}
+.paper-cheque-btns a { width: 230px; height: 52px; line-height: 46px; margin: 0 5px;}
+.navbar-brand { width: 80%;}
+.brand-custom ul li { width: 100%; height: 120px; line-height: 85px; margin-bottom: 15px; padding: 15px;}
+.brand-custom { padding: 55px 0 40px;}
+.how-palgarism-content h2 { font-size: 26px;}
+.tools-content h2 { font-size: 28px; line-height: 32px;padding-bottom: 5px; margin-bottom: 8px;}
+.custom-tools { padding: 40px 0;}
+.tools-content p { margin-bottom: 20px; line-height: 24px; font-size: 14px;}
+.custom-marketing { padding: 40px 0;}
+.custom-marketing-content h2 { font-size: 26px;}
+.custom-marketing-content p { line-height: 22px; font-size: 14px; padding-top: 10px;}
+.marketing-video iframe{width: 100%;}
+.business-help-content h2 {  font-size: 28px;}
+.business-help-content p { line-height: 24px; font-size: 14px;}
+.business-help-content a { font-size: 13px; padding: 12px 24px;}
+.business-help { padding: 42px 0;}
+.how-palgarism-content p { line-height: 24px; font-size: 14px;}
+.how-palgarism-content ul li { margin-bottom: 8px;}
+.how-palgarism { padding-bottom: 30px;}
+.custom-graph { padding: 35px 0 120px;}
+.custom-graph h3 { font-size: 24px;}
+.custom-graph p { line-height: 22px; padding-bottom: 20px;}
+.custom-graph ul li { padding-top: 15px; line-height: 26px;}
+.plaga-cheque { padding: 40px 0 100px;}
+.plaga-cheque h2 { margin-bottom: 12px; font-size: 26px;}
+.plaga-cheque p { line-height: 24px;}
+.plaga-cheque a { font-size: 13px; padding: 12px 28px;}
+.footer-contact-info ul { margin-left: 15px;}
+.follow-us-top { padding: 20px 15px; margin-bottom:20px;}
+.follow-us p { font-size: 13px; line-height: 22px; margin-top: 12px;}
+.follow-us h4 { font-size: 22px;}
+.footer-social ul li { height: 35px; width: 35px; font-size: 14px; margin-right: 1px;}
+.footer-social ul li a { line-height: 36px;}
+.footer-contact-info ul { margin-bottom: 25px;}
+.footer-list ul li { margin-bottom: 6px;}
+.follow-us { top: -90px;}
+.custom-footer { padding: 45px 0 0px;}
+.footer-col-3 p { margin-top: 28px; margin-bottom: 15px;}
+.footer-btm { margin-top: 15px;}
+.footer-btm p { padding: 20px 0; font-size: 14px;}
+
+}
+
+
+@media (max-width: 767px){
+	h2 {font-size: 26px;}
+	body{font-size: 14px;}
+	.custom-header .navbar-brand { margin-left: 0; width: 80%;}
+	.custom-header .navbar-brand img{width: 60%;}
+	.custom-bnr img{height: 420px;object-fit: cover;}
+	.dp-caption h1 {font-size: 34px;line-height: 38px;}
+	.dp-caption p {line-height: 18px;font-size: 13px;}
+	.dp-caption { left: 0; bottom: 22px; background: rgba(0,0,0,0.5); padding: 20px;}
+	.custom-header {padding: 8px 0;}
+	.bnr-btn {font-size: 13px;padding: 8px 20px;}
+	.cheque-paper h5 { font-size: 13px; padding-bottom: 0px; line-height: 22px;}
+	.cheque-paper h5::before {display: none;}
+	.cheque-paper h5::after {display: none;}
+	.cheque-paper {padding: 40px 0;}
+	.cheque-paper form .form-group .btn {font-size: 13px;padding: 8px 20px;margin-top: 20px;}
+	.paper-cheque-btns a { width: 162px; font-size: 10px; margin: 0 0px;}
+	.paper-cheque-btns a span { padding-right: 3px;}
+	.brand-custom ul {column-count: 1;}
+	.brand-custom ul li{width: 100%;}
+	.brand-custom ul li {width: 333px;margin: 0 auto 20px;}
+	.brand-custom {padding: 40px 0 20px;}
+	.custom-tools {padding: 40px 0;}
+	.tools-content h2::after{display: block !important;}
+	.tools-content h2 {padding-bottom: 10px;margin-bottom: 10px;}
+	.tools-content p {margin-bottom: 16px;line-height: 24px;}
+	.tools-content ul li {font-size: 13px;}
+	.custom-marketing {padding: 40px 0;}
+	.custom-marketing-content h5 {font-size: 13px;}
+	.custom-marketing-content h2 {font-size: 26px;}
+	.custom-marketing-content p {line-height: 24px;margin-top: 10px;}
+	.business-help { padding: 35px 0;}
+	.business-help-content a { padding: 10px 18px;}
+    .business-help-content{margin-top: 20px;}
+    .how-palgarism-content h2 { font-size: 24px; padding-top: 25px;}
+    .how-palgarism { padding-bottom: 30px;}
+    .custom-graph { padding: 30px 0 30px;}
+    .custom-graph ul { column-count: 1;}
+    .custom-graph ul li { padding: 15px 0;}
+    .custom-graph h3 { font-size: 22px;}
+    .marketing-video iframe{width: 100%; height: auto;}
+    .plaga-cheque { padding: 35px 0 90px;}
+    .follow-us { position: inherit; top: 0;}
+    .custom-footer { padding: 40px 0 0px;}
+    .footer-contact-info ul { margin-left: 15px; margin-bottom: 22px;}
+    .footer-contact-info ul li { margin-right: 0; width: 100%; padding-bottom: 18px;}
+    .footer-col-1 ul li{margin-bottom: 0px;}
+    .footer-list h4 { font-size: 24px;}
+    .footer-btm { margin-top: 20px;}
+    .footer-btm p { font-size: 12px;}
+
+}
+@media only screen and (max-width: 480px) {	
+    
+}
+

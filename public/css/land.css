@@ -1,0 +1,101 @@
+.file-upload-panel {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.file-upload-panel:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.doller-sign {
+    font-size: 18px;
+    bottom: 0;
+}
+
+.duration {
+    color: #4c5462;
+    font-size: 12px;
+    font-weight: 400;
+    bottom: 0;
+    text-transform: capitalize;
+}
+
+.plan-title {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.price-value {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.file-upload-content {
+    padding: 40px 0px 0px;
+}
+
+
+.file-upload-content textarea {
+    height: 200px;
+}
+
+.table-content li {
+    color: #4c5462;
+    margin-bottom: 15px;
+}
+
+.table-content li:last-child {
+    margin-bottom: 0;
+}
+
+.open-buttons button {
+    margin: 0px 10px;
+}
+.open-buttons button {
+    text-align: left;
+}
+
+.open-buttons button i,
+.open-buttons button p {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.open-buttons button:hover i,
+.open-buttons button:hover p {
+    color: #fff;
+}
+
+.open-buttons button p {
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+.open-buttons i {
+    color: #fff;
+    font-size: 24px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.open-buttons i {
+    color: #2b323f;
+}
+
+.open-buttons span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#file-input {
+    display: none;
+}
+
+#upload-form {
+    display: none;
+}
+
