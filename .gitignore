@@ -9,7 +9,6 @@ app/storage/
 
 # Laravel 5 & Lumen specific
 /public/
-/resources/
 public/storage
 public/hot
 storage/*.key
